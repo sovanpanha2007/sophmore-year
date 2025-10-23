@@ -1,0 +1,45 @@
+body {
+  background-color: gray; 
+  font-family: Arial, sans-serif;
+}
+
+div {
+  margin: 30px 100px 0px 100px;        
+  padding: 20px;             
+  border-radius: 10px;       
+  color: white;
+}
+
+.cyan {
+    background-color: black;
+}
+.brown {
+    background-color: black;
+}
+.pink {
+    background-color: black;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.cyan button {
+  background-color: green;
+}
+
+.brown button {
+  background-color: orange;
+}
+
+.pink button {
+  background-color: purple;
+}
+
+button:hover {
+  opacity: 0.8;
+}

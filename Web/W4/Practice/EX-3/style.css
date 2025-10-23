@@ -1,0 +1,14 @@
+/* TODO */
+button {
+    padding : 15px 40px;
+    border : 3px solid #e6a3cd;
+    border-radius: 30px;
+    background-color : #b84d91;
+    color : black;
+    font-size: 18px;
+    transition: 0.3;
+    cursor: pointer;
+}
+button:hover{
+    background-color : pink
+}

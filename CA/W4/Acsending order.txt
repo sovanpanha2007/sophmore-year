@@ -1,0 +1,11 @@
+Acsending order
+
+if numbers of string is in order from smaller to bigger number, return true.
+in contrast, return false.
+
+case ERROR :
+1.empty string / no number
+2.only one number of string
+
+
+in order to check if it ascending order, we have to convert string to token 

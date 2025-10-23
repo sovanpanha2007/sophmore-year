@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #111;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: black;
+  padding: 50px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: -20px auto 10px auto; 
+  object-fit: cover;
+}
+
+h3 {
+  margin-top: 5px;    
+  margin-bottom: 0;
+}
+#bio {
+    color : grey;
+    font-size: x-small;
+
+}
+
+#role {
+  color: grey;
+  margin-top: 2px;    
+  font-size: small;
+}
+
+button {
+  border-radius: 30px;
+  background-color: white;
+  border: none;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #a63f82;
+  color: white;
+  transform: scale(1.05);
+}
+.stats {
+  display: flex;
+  justify-content: space-around; 
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  gap : 40px
+}
+
+.stats div {
+  background-color: transparent; 
+}
+
+.label {
+  color: grey;
+  font-size: 12px;
+  margin: 0;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0 0 0;
+}
