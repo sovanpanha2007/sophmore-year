@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color:white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 15px 50px;
+    background-color: #0f1418;
+    border-bottom: 3px solid #007bff;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #007bff;
+}
