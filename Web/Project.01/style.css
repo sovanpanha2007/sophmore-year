@@ -34,3 +34,8 @@ nav {
 .links a:hover {
     color: #007bff;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
