@@ -24,7 +24,7 @@ nav {
     gap: 20px; /* Space between links */
 }
 
-.links {
+.links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -38,4 +38,13 @@ nav {
 h1 {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 0px;
+}
+ 
+
+#bio {
+    font-size: small;
+    text-align: center;
+    font-family: serif;
+    margin-top: 5px;
 }
